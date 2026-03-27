@@ -1,16 +1,7 @@
 name: docker-build-ascend-a2
 
 on:
-  workflow_dispatch:  
-  push:
-    branches: [ "main" ] 
-    paths:
-      - "docker/ascend/Dockerfile.ascend_8.3.rc1_a2"
-      - ".github/workflows/docker-build-ascend-a2.yml"
-  release:
-    types: [ published ] 
-  schedule:
-    - cron: "0 16 * * *"
+  workflow_dispatch:
 
 jobs:
   build-ascend-image-a2:
