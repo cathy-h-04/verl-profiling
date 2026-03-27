@@ -215,7 +215,7 @@ pycparser==2.23
 pycryptodomex==3.23.0
 pydantic==2.12.5
 pydantic_core==2.41.5
-pydantic-extra-types==2.10.6
+pydantic-extra-types==2.11.1
 Pygments==2.19.2
 pylatexenc==2.10
 pynvml==13.0.1
