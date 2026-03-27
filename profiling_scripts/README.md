@@ -26,7 +26,8 @@ source "$VENV_ACTIVATE"
 Check that the environment is usable before submitting:
 
 ```bash
-source verl-env/bin/activate
+export VENV_ACTIVATE=${VENV_ACTIVATE:-$PWD/verl-env/bin/activate}
+source "$VENV_ACTIVATE"
 python -c "import ray, verl, torch"
 which ray
 ray --version
