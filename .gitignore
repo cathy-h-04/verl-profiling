@@ -1,0 +1,53 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+verl-env/
+
+# Tool caches and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS noise
+.vscode/
+.idea/
+.gemini/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Slurm and local launcher outputs
+slurm-*.out
+slurm-*.err
+
+# Local run outputs
+outputs/
+logs/
+monitoring/
+monitoring_val/
+checkpoints/
+results/
+
+# Local secrets for gated model access
+profiling_scripts/token.sh
+profiling_scripts/token.txt

@@ -1,0 +1,12 @@
+{
+  "job_name": "qwen_test",
+  "partition": "gpu",
+  "time": "00:10:00",
+  "nodes": 1,
+  "ntasks_per_node": 1,
+  "gpus_per_node": 1,
+  "cpus_per_task": 4,
+  "mem": "16G",
+  "output": "slurm-%A_%a.out",
+  "error": "slurm-%A_%a.err"
+}

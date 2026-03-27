@@ -1,0 +1,32 @@
+{
+  "runs": [
+    {
+      "name": "qwen_test_05b_ppo",
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "total_epochs": 1,
+      "poll_interval": 0.5,
+      "granularity": "operation",
+      "policy": "ppo",
+      "nnodes": 1,
+      "gpus_per_node": 1,
+      "dataset": "gsm8k",
+      "use_validation": true,
+      "val_freq": 1,
+      "val_max_samples": 4,
+      "total_steps": 1,
+      "save_freq": -1,
+      "resume_path": null,
+      "rollout_n": 1,
+      "tensor_parallel_size": 1,
+      "train_batch_size": 32,
+      "ppo_mini_batch_size": 8,
+      "micro_batch_size_per_gpu": 1,
+      "log_prob_micro_batch_size": 1,
+      "gpu_memory_util": 0.3,
+      "rollout_max_batched_tokens": 2048,
+      "rollout_max_model_len": 2048,
+      "rollout_max_num_seqs": 8,
+      "enable_grad_checkpointing": true
+    }
+  ]
+}
