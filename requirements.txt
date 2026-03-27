@@ -214,7 +214,7 @@ pycountry==24.6.1
 pycparser==2.23
 pycryptodomex==3.23.0
 pydantic==2.12.5
-pydantic_core==2.41.5
+pydantic_core==2.42.0
 pydantic-extra-types==2.10.6
 Pygments==2.19.2
 pylatexenc==2.10
