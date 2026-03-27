@@ -62,7 +62,7 @@ executing==2.2.1
 fastapi==0.122.0
 fastapi-cli==0.0.16
 fastapi-cloud-cli==0.5.2
-fastar==0.8.0
+fastar==0.9.0
 fastjsonschema==2.21.2
 fastrlock==0.8.3
 filelock==3.20.0
