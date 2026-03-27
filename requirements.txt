@@ -233,7 +233,7 @@ pyvers==0.1.0
 PyYAML==6.0.3
 pyzmq==27.1.0
 qwen-vl-utils==0.0.14
-ray==2.52.1
+ray==2.54.1
 referencing==0.37.0
 regex==2025.11.3
 requests==2.32.5
